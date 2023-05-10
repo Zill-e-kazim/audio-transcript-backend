@@ -27,7 +27,7 @@ const app: Express = express();
 const port = process.env.PORT;
 
 const corsOptions: CorsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["http://localhost:3000", "http://44.202.4.202:80"],
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
   credentials: true,
   preflightContinue: true,
