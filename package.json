@@ -9,7 +9,7 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "debug": "concurrently \"npx tsc --watch\" \"nodemon --inspect -q dist/index.js\"",
     "prod:start": "pm2 start index.js --name audio-transcript-backend",
-    "prod:stop": "pm2 stop index.js"
+    "prod:stop": "pm2 stop index.js --name audio-transcript-backend"
   },
   "keywords": [],
   "author": "",
